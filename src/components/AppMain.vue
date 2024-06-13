@@ -2,6 +2,9 @@
     <main class="">
         <div class="container">
             <div class="row">
+                <div class="col-12">
+                    <RouterView />
+                </div>
                 <div class="col text-white text-center">
                     <h1>Template Vue + Bootstrap /AntoCic</h1>
                     <p class="mb-2">{{store.textHello}}</p>
